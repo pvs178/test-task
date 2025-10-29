@@ -1,0 +1,27 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:jsdoc/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["jsdoc", "unused-imports"],
+  "rules": {
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "unused-imports/no-unused-imports": "warn",
+    "jsdoc/require-description": "warn",
+    "jsdoc/require-param-description": "warn",
+    "jsdoc/require-returns-description": "warn",
+    "jsdoc/check-alignment": "warn",
+    "jsdoc/check-indentation": "warn"
+  }
+}
+
